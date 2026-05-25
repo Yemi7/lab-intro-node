@@ -14,9 +14,7 @@ class SortedList {
     if (pos > this.items.length - 1 || pos < 0) {
       throw new Error("OutOfBounds");
     }
-    for (let i = 0; i < this.items.length; i++) {
       return this.items[pos];
-    }
   }
 
   max() {
